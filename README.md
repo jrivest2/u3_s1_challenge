@@ -280,9 +280,24 @@ career here, you'll have to answer the following:
 - We have an awful lot of computers here, and it gets pretty confusing with
   slightly different things running on all of them. How could containers help us
   improve this situation?
-
+  
+  
 Answer both of these questions (baseline ~5 sentences) here in text.
 
+ **Answer**: I believe code reviews are important to help us catch any errors that
+  maybe didn't show in our own personal testing. I also think it is important to 
+  help a friend make sure they're following their style guide. That's what I'd 
+  want them to notice. I also think it's cool if they tell me about cool and 
+  productive ways I could refactor my code to make it more effecient so that 
+  way my code can actually be improved in the way it runs.
+  
+  Containers are helpful because they allow us to work on top of our
+  current OS (while being OS independent), but still in a controlled environment
+  that is seperate from the other things running on any particular computer. So,
+  even though we have several different things running, all computers at the 
+  company could run each others code in the containers and it should all work 
+  (even with different OS's) becuase of the nature of the container environment.
+    
 ### Part 8 - Turn it in!
 
 Provide all the files you wrote (`acme.py`, `acme_report.py`, and
